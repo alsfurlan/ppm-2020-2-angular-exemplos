@@ -1,0 +1,10 @@
+
+<h1>
+    Hello World, {{ nome }}!
+</h1>
+
+<div>
+    <input type="text"
+            [value]="nome"
+            (change)="setNome($event.target.value)">
+</div>

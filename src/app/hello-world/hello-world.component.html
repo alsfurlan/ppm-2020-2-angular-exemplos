@@ -4,7 +4,6 @@
 </h1>
 
 <div>
-    <input type="text"
-            [value]="nome"
-            (change)="setNome($event.target.value)">
+    <input type="text"  
+            [(ngModel)]="nome">
 </div>

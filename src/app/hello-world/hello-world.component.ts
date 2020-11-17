@@ -20,7 +20,7 @@ export class HelloWorldComponent implements OnInit {
   
   // public void setNome() {} 
   // public setNome() : void {}
-  setNome(nome) {
-    this.nome = nome;    
-  }
+  // setNome(nome: string) {
+  //   this.nome = nome;    
+  // }
 }

@@ -10,10 +10,19 @@ export class DataHoraComponent implements OnInit {
   dataHoraAtual:Date;
 
   constructor() { 
-    this.dataHoraAtual = new Date();
+    this.updateDataHoraAtual();
+
+    setInterval(
+      () => this.updateDataHoraAtual(), 
+      1000
+    );
   }
 
   ngOnInit(): void {
+  }
+
+  updateDataHoraAtual() {
+    this.dataHoraAtual = new Date();
   }
 
 }

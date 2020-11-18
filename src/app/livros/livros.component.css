@@ -15,3 +15,7 @@ ul > li {
 ol > li {
     font-weight: normal;  
 }
+
+span {
+    font-weight: normal;
+}

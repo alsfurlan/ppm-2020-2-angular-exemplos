@@ -20,9 +20,9 @@ export class LivrosComponent implements OnInit {
     // this.livros = [ livro1, livro2, livro3 ];
 
     this.livros = [
-      new Livro('JavaScript: O guia definitivo', [ new Autor('David', 'Flanagan') ]),
-      new Livro('O melhor do JavaScript', [ new Autor('Douglas', 'Cockford'), new Autor('Segundo', 'Autor') ]),
-      new Livro('JavaScript Design Patterns', [ new Autor('Addy', 'Osmani'), new Autor('Segundo', 'Autor'), new Autor('Terceiro', 'Autor') ])
+      new Livro('JavaScript: O guia definitivo', [ new Autor('David', 'Flanagan') ], 0),
+      new Livro('O melhor do JavaScript', [ new Autor('Douglas', 'Cockford'), new Autor('Segundo', 'Autor') ], 1),
+      new Livro('JavaScript Design Patterns', [ new Autor('Addy', 'Osmani'), new Autor('Segundo', 'Autor'), new Autor('Terceiro', 'Autor') ], 2)
     ];  
   }
 
